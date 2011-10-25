@@ -1,0 +1,86 @@
+/*
+Stylesheet: EndaMetaboxes plugin stylesheet
+Author: Eric Daams
+Author URI: http://ericnicolaas.com
+*/
+
+.enda-meta-row {
+  margin:0.8em 0;
+}
+
+.enda-meta-row label {
+  width:130px;
+  float:left;
+  padding-top:10px;
+}
+
+
+/* --- text fields --- */
+.enda-text-field input {
+  padding:6px 4px;
+}
+
+.enda-text-field input.small {
+  width:60px;
+}
+
+.enda-text-field input.medium, 
+.enda-text-field input {
+  width:220px;
+}
+
+.enda-text-field input.large {
+  width:400px;
+}
+
+/* --- textarea --- */
+.enda-meta-row textarea, 
+.enda-meta-row textarea.medium {
+  width:260px;
+}
+
+.enda-meta-row textarea.small {
+  width:120px;
+}
+
+.enda-meta-row textarea.large {
+  width:480px;
+}
+
+
+/* --- key/value pairs --- */
+.enda-key-value-fields tfoot td {
+  border-top:1px solid #eee;  
+  padding:12px 0px;
+  width:200px;
+}
+
+.enda-key-value-fields tfoot h4 {
+  margin:0 0 8px;
+}
+
+.enda-key-value-fields tfoot label {
+  float:left;
+  margin:8px 40px 8px 0;
+}
+
+.enda-key-value-fields tfoot button {
+  margin-top:8px;
+  clear:both;
+  float:left;
+}
+
+.success input {
+  background-color:#effeb9 !important;  
+}
+
+
+/* --- assists --- */
+.enda-meta-row .assist {
+  clear:both;
+  font-size:11px;
+  color:#3e3e3e;
+  font-style:italic;
+  display:block;
+  margin:4px 0 0 130px;
+}
